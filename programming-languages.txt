@@ -1,0 +1,95 @@
+Problem 11. Programming Languages
+
+    Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. 
+	How similar are they to C#? How do they differ from C#?
+    	Write in a text file called “programming-languages.txt” at least five languages along with 2-3 sentences about each of them. 
+	Use English.
+
+
+Number 6: PHP released 1995
+PHP is a widely-used general-purpose scripting language that is especially suited for Web development and can be embedded into HTML. 
+PHP has many similarities with C#, but also has many crucial differences. 
+PHP doesn't have Android Development support; Optional Static Type; Macro System; iOS Development Support; CLR; Scripting language support and many more.
+But PHP is irreplaceable language for Web and HTML developing. 
+More info: http://vschart.com/compare/c-sharp/vs/php
+	
+
+Number 5: C# released in 2001
+Fiew words about C#: Very nice and clean language, easy to learn and easy to be used. 
+Very bug support and information everywhere, the child of C and C++.
+Microsoft characterizes C# as a variant of C++, but it most
+closely resembles Java.
+•The two have many common characteristics.  •automatic garbage collection  •type safety
+•no free functions/variables (everything in a class)  •runtime checks on type cast
+•single inheritance  •interfaces, multiple implementation of interfaces  •reflection
+•exceptions with try/catch  •threads  •a rich set of collection classes 
+More info: http://courses.cs.washington.edu/courses/cse341/09au/notes/csharp.pdf
+
+Number 4: C++ released in 1983
+C++ is very popular language, but sence C# has been released his raiting is dropping with every year. But still C++ is more popular then C#.
+How I mentuned above C# is a variant of C++, so they are very simular and also different. C# contains many new improvements and things that are missing in C++, 
+but C++ is holding his flexibility fitting to any Database and honorable owner of "Multi-paradigm native compiled language" title, making him 
+a better choice for some spesific problems.
+
+Number 3: Objective-C released in 1986
+How we can see from the name Omjective-C general purpose is high-level OOP.
+A fiew interesting thoughts in internet:
+ -->One of the best parts of Objective-C is the dynamic nature — rather than calling methods, you send messages, which the runtime routes dynamically. 
+Combined (judiciously) with dynamic typing, this can make a lot of powerful patterns simpler or even trivial to implement.
+
+ -->As a strict superset of C, Objective-C trusts that you know what you're doing. Unlike the managed and/or typesafe approach of languages like C# and Java, 
+Objective-C lets you do what you want and experience the consequences. Obviously this can be dangerous at times, but the fact that the language doesn't 
+actively prevent you from doing most things is quite powerful. (EDIT: I should clarify that C# also has "unsafe" features and functionality, but they default 
+behavior is managed code, which you have to explicitly opt out of. By comparison, Java only allows for typesafe code, and never exposes raw pointers in the way that C and others do.)
+
+ -->Categories (adding/modifying methods on a class without subclassing or having access to source) is an awesome double-edged sword. 
+It can vastly simplify inheritance hierarchies and eliminate code, but if you do something strange, the results can sometimes be baffling.
+
+ -->Cocoa makes creating GUI apps much simpler in many ways, but you do have to wrap your head around the paradigm. 
+MVC design is pervasive in Cocoa, and patterns such as delegates, notifications, and multi-threaded GUI apps are well-suited to Objective-C.
+
+ -->Cocoa bindings and key-value observing can eliminate tons of glue code, and the Cocoa frameworks leverage this extensively. 
+Objective-C's dynamic dispatch works hand-in-hand with this, so the type of the object doesn't matter as long as it's key-value compliant.
+
+ -->You will likely miss generics and namespaces, and they have their benefits, but in the Objective-C mindset and paradigm, they would be niceties rather than necessities. 
+(Generics are all about type safety and avoiding casting, but dynamic typing in Objective-C makes this essentially a non-issue. 
+Namespaces would be nice if done well, but it's simple enough to avoid conflicts that the cost arguably outweighs the benefits, especially for legacy code.)
+
+ -->For concurrency, Blocks (a new language feature in Snow Leopard, and implemented in scores of Cocoa APIs) are extremely useful. 
+A few lines (frequently coupled with Grand Central Dispatch, which is part of libsystem on 10.6) can eliminates significant boilerplate of callback functions, context, etc. 
+(Blocks can also be used in C and C++, and could certainly be added to C#, which would be awesome.) NSOperationQueue is also a very convenient way to add concurrency to your own code,
+by dispatching either custom NSOperation subclasses or anonymous blocks which GCD automatically executes on one or more different threads for you.
+ 
+
+Number 2: Java released 1972
+C# and Java... the fact is sence the release of C# in 2001 the Java's raiting is dropping but still he is way popular then C#.
+But it so happens that Java and C# are good general-purpose programming languages suitable for much more than just the Internet.  
+They use many recent innovations in programming language design, yet are also simple enough to use in a course such as CS-112.  
+Furthermore, once you know one programming language, it is much easier to learn another.  Java and C# have many attractive characteristics, including:
+Simplicity.  Their relative simplicity is their prime attraction as an introductory programming language.
+  -->Safety:  Java and C# were designed to be robust.  Their type systems are a major source of this robustness, and the absence of pointers removes one common source of problems.  
+	They also provide exception handling and other methods for creating programs that are less likely to crash.
+
+  -->Cost:    Free implementations of both Java and C# are available.
+
+  -->Cross-platform:  A Java program written for one platform, such as a PC or Mac, will run on any other Java platform automatically.  
+	Java programs are compiled into platform-independent byte-codes.  C# is not quite as platform-independent, but should at least run under Windows and Mac OS-X (but not Linux).
+
+  -->Object-oriented:  In Java and C#, (almost) everything is an object.   In fact, there are no functions or procedures -- just class methods.  
+	C#'s treatment of objects is a bit more uniform than that of Java.
+
+  -->Client-Server and Network support:  Java and C# applets are client-server programs that run on the Internet.
+
+  -->Multimedia support:  The standard Java and C# libraries have support for graphic images, animation, and sound.
+
+  -->Ubiquitous:  Java and C# applications are spreading throughout the Internet.  Students learning these languages can find numerous examples, as well as employment opportunities.
+
+  -->Related to C/C++:  Java and C# are perhaps 75% of C++, and vice versa.  Students who already know C or C++ will have little difficulty learning Java or C#.   
+	Students who learn Java or C# first will have little difficulty picking up C or C++.
+
+Number 1: C developed 1969-1973
+To this moment C Programming Language is at the first position for 2014-2015.
+C is a language that was made to create the UNIX OS, and families. Some refer to it as high level assembly, where portability exists.
+The legacy of C language stems from the fact that it is ancestor to many of the advanced programming languages such as C++, Java, C#, JavaScript, and Pearl. 
+It is probably due to this reason that C is the first programming course offered in universities as it paves way for learning other languages. 
+C language is mostly used for developing low level applications as it is considered nearest to the hardware amongst all languages, baring assembly language
